@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Calculator</title>
+        <link rel="stylesheet" href="index.css">
+
+        <script src="button/model.js" type="text/javascript" defer> </script>
+        <script src="button/view.js" type="text/javascript" defer> </script>
+        <script src="button/controller.js" type="text/javascript" defer> </script>
+
+        <script src="numberButton/model.js" type="text/javascript" defer> </script>
+        <script src="numberButton/view.js" type="text/javascript" defer> </script>
+        <script src="numberButton/controller.js" type="text/javascript" defer> </script>
+
+        <script src="operatorButton/model.js" type="text/javascript" defer> </script>
+        <script src="operatorButton/view.js" type="text/javascript" defer> </script>
+        <script src="operatorButton/controller.js" type="text/javascript" defer> </script>
+
+        <script src="display/model.js" type="text/javascript" defer> </script>
+        <script src="display/view.js" type="text/javascript" defer> </script>
+        <script src="display/controller.js" type="text/javascript" defer> </script>
+
+        <script src="calculator/model.js" type="text/javascript" defer> </script>
+        <script src="calculator/view.js" type="text/javascript" defer> </script>
+        <script src="calculator/controller.js" type="text/javascript" defer> </script>
+    </head>
+    <body>
+      <button onclick="addCalculator()">Add</button>
+
+        <script>
+            var calcInstance = 0;
+            addCalculator = function() {
+                new CalculatorController(calcInstance++);
+            }
+        </script>
+
+    </body>
+<html>

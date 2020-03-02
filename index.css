@@ -1,0 +1,135 @@
+button {
+  background-color:black;
+  color:white;
+  pointer:cursor;
+  font-size:20px;
+  padding:0px;
+  margin:0px;
+  border-color:#666666;
+  border-style:solid;
+  border-width: 0.01em;
+}
+button:hover {
+  background-color: grey;
+}
+input{
+    background-color:#666666;
+    color:white;
+    font-size:45px;
+    text-align:right;
+    border:1px solid grey;
+    pointer-events: none;
+}
+div {
+    position:relative;
+    left:400px;
+    margin:1px;
+    padding:1px;
+}
+button[value="="] {
+  background-color: #00334d;
+}
+
+button[value="="] : hover {
+  background-color: #0088cc;
+}
+button:active {
+    background-color: grey;
+}
+
+button[value = "7"] {
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+button[value = "8"] {
+    position:absolute;
+    top:0px;
+    left:80px;
+}
+
+button[value = "9"] {
+    position:absolute;
+    top:0px;
+    left:160px;
+}
+button[value = "C"] {
+    position:absolute;
+    top:0px;
+    left:240px;
+}
+
+button[value = "4"] {
+    position:absolute;
+    top:55px;
+    left:0px;
+}
+button[value = "5"] {
+    position:absolute;
+    top:55px;
+    left:80px;
+}
+
+button[value = "6"] {
+    position:absolute;
+    top:55px;
+    left:160px;
+}
+button[value = "*"] {
+    position:absolute;
+    top:55px;
+    left:240px;
+}
+
+button[value = "1"] {
+    position:absolute;
+    top:110px;
+    left:0px;
+}
+button[value = "2"] {
+    position:absolute;
+    top:110px;
+    left:80px;
+}
+
+button[value = "3"] {
+    position:absolute;
+    top:110px;
+    left:160px;
+}
+button[value = "/"] {
+    position:absolute;
+    top:110px;
+    left:240px;
+}
+
+button[value = "+"] {
+    position:absolute;
+    top:160px;
+    left:0px;
+}
+button[value = "0"] {
+    position:absolute;
+    top:160px;
+    left:80px;
+}
+
+button[value = "-"] {
+    position:absolute;
+    top:160px;
+    left:160px;
+}
+button[value = "="] {
+    position:absolute;
+    top:160px;
+    left:240px;
+}
+div [name="numberButton"] {
+  position:relative;
+      left:0px;
+}
+
+div [name="operatorButton"] {
+  position:relative;
+      left:0px
+}
